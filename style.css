@@ -1,0 +1,22 @@
+body {
+    
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.currentweather {
+    text-align: center;
+    width: 100%;
+    background-color: bisque;
+}
+
+.forecast {
+    text-align: center;
+    flex: 1;
+    background-color: aqua;
+}
+
