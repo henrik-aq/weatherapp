@@ -1,22 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-    
-    width: 75%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
+    
+}
+
+.container {
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .currentweather {
+    margin-bottom: 8px;
     text-align: center;
-    width: 100%;
-    background-color: bisque;
+    background-color: #bbeae6;
 }
 
 .forecast {
+    flex: 1 auto;
     text-align: center;
-    flex: 1;
-    background-color: aqua;
+    background-color: #FAFAFA;
+    margin-bottom: 8px;
+    padding:0;
 }
 
+div p:first-of-type{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+div p:last-of-type {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
